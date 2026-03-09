@@ -7,10 +7,10 @@ export default function ProjectCard(props: Project) {
 
   return (
     <div className={`proj-card proj-card--${type}`}>
-      {wip && <div className="wip-badge">🚧 In Progress</div>}
+      {wip && <div className="wip-badge">In Progress</div>}
 
       <div className="proj-preview">
-        {/* <MediaPreview media={media} name={name} /> */}
+        <MediaPreview media={media} name={name} />
       </div>
 
       <div className="proj-body">

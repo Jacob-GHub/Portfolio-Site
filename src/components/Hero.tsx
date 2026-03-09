@@ -17,8 +17,9 @@ export default function Hero() {
 
   return (
     <section id="hero" className="hero">
-      <p className="hero-label">Software Engineer</p>
+      <p className="hero-label">Software Engineer - CS @ UCR</p>
       <h1 className="hero-name">Jacob Perez</h1>
+      <div className="hero-scroll"></div>
     </section>
   );
 }

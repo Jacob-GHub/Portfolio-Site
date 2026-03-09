@@ -1,6 +1,8 @@
 export default function Contact() {
   return (
     <section id="contact" className="section contact-section">
+      <h2 className="contact-heading">Get in touch</h2>
+      <p className="contact-sub">Feel free to contact me here</p>
       <div className="contact-links">
         <a href="mailto:jacobjperez21@gmail.com" className="btn btn-primary">
           Email Me
