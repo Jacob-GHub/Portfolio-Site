@@ -662,6 +662,33 @@ ul {
   border-color: var(--text-sub);
 }
 
+/* ─── Carousel dots ─────────────────────────── */
+.proj-dots {
+  display: none;
+  /* hidden on desktop */
+  justify-content: center;
+  gap: 6px;
+  margin-top: 16px;
+}
+
+.proj-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: none;
+  background: var(--border-mid);
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.2s, transform 0.2s, width 0.2s;
+}
+
+.proj-dot--active {
+  background: var(--text-sub);
+  width: 16px;
+  /* pill shape for active */
+  border-radius: 3px;
+}
+
 /* ─────────────────────────────────────────────
    MISC
 ───────────────────────────────────────────── */
@@ -688,10 +715,13 @@ ul {
 ───────────────────────────────────────────── */
 @media (max-width: 720px) {
   :root {
-    --card-w: 82vw;
     --section-px: 20px;
+    --card-w: 78vw;
   }
 
+  .proj-dots {
+    display: flex;
+  }
   /* Hero */
   .hero-name {
     font-size: clamp(44px, 14vw, 72px);
@@ -757,6 +787,10 @@ ul {
   :root {
     --card-w: 88vw;
     --section-px: 16px;
+  }
+
+  :root {
+    --card-w: 84vw;
   }
 
   .hero-name {

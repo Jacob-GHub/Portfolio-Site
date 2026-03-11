@@ -18,8 +18,8 @@ const FULLSTACK: Project[] = [
     ],
     links: { github: "https://github.com/Jacob-GHub/AutoDev" },
     media: {
-      kind: "gif",
-      src: "/media/new-autodev.gif",
+      kind: "image",
+      src: "/media/autodev.png",
     },
   },
   {
@@ -41,8 +41,8 @@ const FULLSTACK: Project[] = [
       live: "https://studbuds.vercel.app/",
     },
     media: {
-      kind: "gif",
-      src: "/media/new-studbuds.gif",
+      kind: "image",
+      src: "/media/studbuds.png",
     },
   },
   {
@@ -56,8 +56,8 @@ const FULLSTACK: Project[] = [
       live: "https://food-delivery-jp.netlify.app/",
     },
     media: {
-      kind: "gif",
-      src: "/media/new-tomato.gif",
+      kind: "image",
+      src: "/media/tomato.png",
     },
   },
 
@@ -107,8 +107,8 @@ const SYSTEMS: Project[] = [
     tags: ["C++", "LLVM", "GoogleTest", "Valgrind", "CMake"],
     links: { github: "https://github.com/Jacob-GHub/C-Compiler" },
     media: {
-      kind: "gif",
-      src: "/media/new-c-compiler.gif",
+      kind: "image",
+      src: "/media/c-compiler.png",
     },
   },
   {
@@ -125,8 +125,8 @@ const SYSTEMS: Project[] = [
     ],
     links: { github: "https://github.com/Jacob-GHub/Ray-Tracer" },
     media: {
-      kind: "gif",
-      src: "/media/new-ray-tracer.gif",
+      kind: "image",
+      src: "/media/ray-tracer.png",
     },
   },
   {
@@ -139,8 +139,8 @@ const SYSTEMS: Project[] = [
       github: "https://github.com/Jacob-GHub/Space-Invaders-Embedded-System",
     },
     media: {
-      kind: "gif",
-      src: "/media/space-invaders.gif",
+      kind: "image",
+      src: "/media/space-invaders.png",
     },
   },
   {
@@ -151,8 +151,8 @@ const SYSTEMS: Project[] = [
     tags: ["Rust", "Lexer", "Parser", "IR Generation", "Interpreter"],
     links: { github: "https://github.com/Jacob-GHub/teh-tarik-compiler" },
     media: {
-      kind: "gif",
-      src: "/media/new-rust-compiler.gif",
+      kind: "image",
+      src: "/media/rust-compiler.png",
     },
   },
 ];
