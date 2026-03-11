@@ -12,7 +12,7 @@ export interface Project {
   desc: string;
   tags: string[];
   metrics?: string[];
-  media?: { kind: "image"; src: string } | { kind: "video"; src: string };
+  media?: { kind: "image"; src: string } | { kind: "video"; src: string } | { kind: "gif"; src:string};
   wip?: boolean;
   links?: ProjectLinks;
 }

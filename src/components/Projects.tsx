@@ -18,8 +18,8 @@ const FULLSTACK: Project[] = [
     ],
     links: { github: "https://github.com/Jacob-GHub/AutoDev" },
     media: {
-      kind: "video",
-      src: "https://res.cloudinary.com/dmt62qnlx/video/upload/autodev_zx4ddh.mp4",
+      kind: "gif",
+      src: "/media/new-autodev.gif",
     },
   },
   {
@@ -41,8 +41,8 @@ const FULLSTACK: Project[] = [
       live: "https://studbuds.vercel.app/",
     },
     media: {
-      kind: "video",
-      src: "https://res.cloudinary.com/dmt62qnlx/video/upload/studbuds-new-new_ktze2k.mov",
+      kind: "gif",
+      src: "/media/new-studbuds.gif",
     },
   },
   {
@@ -56,8 +56,8 @@ const FULLSTACK: Project[] = [
       live: "https://food-delivery-jp.netlify.app/",
     },
     media: {
-      kind: "video",
-      src: "https://res.cloudinary.com/dmt62qnlx/video/upload/tomato-new-new_ilc5b1.mov",
+      kind: "gif",
+      src: "/media/new-tomato.gif",
     },
   },
 
@@ -96,24 +96,6 @@ const FULLSTACK: Project[] = [
     },
     media: { kind: "image", src: "/media/careercypher.png" },
   },
-  {
-    type: "web",
-    category: "Full-Stack - Collaborative Tool",
-    name: "Loom",
-    desc: "My current project - A system design workspace where the diagram lives alongside your written design, not in a separate tool. Multiple engineers can edit the same document and diagram simultaneously, with a built-in decision log to track architectural choices over time.",
-    tags: [
-      "Next.js",
-      "TipTap",
-      "Excalidraw",
-      "Yjs",
-      "Zustand",
-      "PostgreSQL",
-      "Redis",
-    ],
-    wip: true,
-    links: { github: "https://github.com/Jacob-GHub/Loom" },
-    media: { kind: "image", src: "/media/loom.png" },
-  },
 ];
 
 const SYSTEMS: Project[] = [
@@ -125,8 +107,8 @@ const SYSTEMS: Project[] = [
     tags: ["C++", "LLVM", "GoogleTest", "Valgrind", "CMake"],
     links: { github: "https://github.com/Jacob-GHub/C-Compiler" },
     media: {
-      kind: "video",
-      src: "https://res.cloudinary.com/dmt62qnlx/video/upload/c-compiler_t1rhhe.mov",
+      kind: "gif",
+      src: "/media/new-c-compiler.gif",
     },
   },
   {
@@ -143,8 +125,8 @@ const SYSTEMS: Project[] = [
     ],
     links: { github: "https://github.com/Jacob-GHub/Ray-Tracer" },
     media: {
-      kind: "video",
-      src: "https://res.cloudinary.com/dmt62qnlx/video/upload/v1773025175/ray-tracer_bf8pvw.mov",
+      kind: "gif",
+      src: "/media/new-ray-tracer.gif",
     },
   },
   {
@@ -157,8 +139,8 @@ const SYSTEMS: Project[] = [
       github: "https://github.com/Jacob-GHub/Space-Invaders-Embedded-System",
     },
     media: {
-      kind: "video",
-      src: "https://res.cloudinary.com/dmt62qnlx/video/upload/space-invaders-new-new_kht5dc.mov",
+      kind: "gif",
+      src: "/media/space-invaders.gif",
     },
   },
   {
@@ -169,8 +151,8 @@ const SYSTEMS: Project[] = [
     tags: ["Rust", "Lexer", "Parser", "IR Generation", "Interpreter"],
     links: { github: "https://github.com/Jacob-GHub/teh-tarik-compiler" },
     media: {
-      kind: "video",
-      src: "https://res.cloudinary.com/dmt62qnlx/video/upload/rust-compiler_iqhvk4.mov",
+      kind: "gif",
+      src: "/media/new-rust-compiler.gif",
     },
   },
 ];

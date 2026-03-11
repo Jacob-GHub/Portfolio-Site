@@ -20,12 +20,10 @@
 
   /* Text */
   --text: #e8e3d9;
-  --text-sub: #888278;
-  /* roles, company names */
-  --text-muted: #4a4744;
-  /* body, descriptions */
-  --text-dim: #2e2c2a;
-  /* decorative marks */
+  --text-sub: #b0aa9e;
+  --text-muted: #807970;
+  --text-dim: #504e4b;
+ 
 
   /* Single accent — warm off-white, used sparingly */
   --accent: #d6d0c4;

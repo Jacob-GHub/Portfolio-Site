@@ -19,7 +19,7 @@ export default function MediaPreview({ media, name }: MediaPreviewProps) {
     );
   }
 
-  if (media?.kind === "image") {
+  if (media?.kind === "image" || media?.kind === "gif") {
     return <img className="proj-media" src={media.src} alt={name} />;
   }
 
